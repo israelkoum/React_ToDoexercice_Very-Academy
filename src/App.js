@@ -55,7 +55,7 @@ newTodo = () => (
           <Navbar name={this.state.userName}/>
           <div className='col-12'>
           <input className='form-control' onChange ={this.updateValue} value={this.state.newTodo} />
-          <button className='btn btn-primary' onClick={this.newTodo}></button>
+          <button className='btn btn-primary' onClick={this.newTodo}>Add task</button>
           </div>
             <table className='table'>
               <thead>
